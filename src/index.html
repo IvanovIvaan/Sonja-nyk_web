@@ -32,8 +32,8 @@
                       Menu
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#sonj">Sonjašnyk</a></li>
+                      <li><a class="dropdown-item" href="#album">Náš první album</a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
@@ -78,21 +78,21 @@
     </div>
     
     <!-- CONTENT -->
-
+    
       
-        <div class="my-5 py-2 d-flex justify-content-center bg-success text-white" data-aos="fade-up" data-aos-offset="300">
+        <div class="my-5 py-2 d-flex justify-content-center bg-success text-white" data-aos="fade-up" data-aos-offset="200" id="sonj">
           <h1>Sonjašnyk</h1>
         </div>
 
 
         <div class="container-fluid container-xl">
         <div class="row">
-        <div class="col col-12 col-lg-6" data-aos="fade-right" data-aos-offset="150">
+        <div class="col col-12 col-lg-7" data-aos="fade-right" data-aos-offset="150">
         <div class="d-flex justify-content-center">
             <div class="m-5">
               <h3>- V překladu to znamená slunečnice. Jedná se o soubor českých a ukrajinských žen, který vznikl v Litomyšli.</h3>
               
-        <div class="container-fluid py-3">
+        <div class="container-fluid py-3 d-flex">
             <p>„V září 2022 jsme s kolegyní Evičkou Beňovou sbor založily. Snažily jsme se jim dát nějakou sociální aktivitu. Chtěly
                 jsme je naučit lépe česky. Říkaly jsme si, že s hudbou a zpěvem to půjde do hlavy určitě lépe,“ vzpomíná Martina
                 Sirová.
@@ -109,7 +109,7 @@
           
         </div>
 
-        <div class="col col-12 col-lg-6" data-aos="fade-left" data-aos-offset="150">
+        <div class="col col-12 col-lg-5" data-aos="fade-left" data-aos-offset="150">
           <div class="d-flex justify-content-center align-items-center">
             <div class="card border-white">
               <iframe height="315" src="https://www.youtube.com/embed/yI5_F614Nic?si=sffqIKfjjg8pO2ay" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -128,31 +128,81 @@
     
   <!-- Diskografie -->
 
-    <div class="container-fluid bg-success mt-5 text-white py-3 d-flex justify-content-center" style="width: 100%;">
+    <div class="container-fluid bg-success mt-5 text-white py-3 d-flex justify-content-center" style="width: 100%;" id="album">
         <h2>Náš první album</h2>
     </div>
 
+
+
+    <!-- compukter version-->
     <div class="container-fluid container-lg my-5">
-        <div class="d-flex justify-content-center">
-          <img src="images/album.jpg" alt=" " class="img-fluid rounded-start d-flex d-lg-inline-flex">
-          <div class="border border-dark rounded-end px-5 d-flex d-lg-inline-flex align-items-center" style="width: fit-content;">
+        <div class="d-none d-lg-flex justify-content-center">
+          <img src="images/album.jpg" alt=" " class="img-fluid rounded-start">
+          <div class="border border-dark rounded-end px-5 d-flex align-items-center text-nowrap" style="width: fit-content;">
             <ul>
               <li><h2>Ještě Chvílí...</h2></li>
               <ul>
                 <li><h3>Obsah:</h3></li>
                 <ul>
-                  <li>Červonu rutu</li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
+                  <li>Červoná Ruta</li>
+                  <li>Ej, plyne kača</li>
+                  <li>Mezí horami</li>
+                  <li>Ticho</li>
+                  <li>Obijmi</li>
+                  <li>Odna Kalina</li>
+                  <li>Chcí být tvůj</li>
+                  <li>Modré nebe</li>
+                  <li>Dios es amor</li>
+                  <li>Spasená Ukrajina</li>
+                  <li>Dubky</li>
                   <li>...</li>
                 </ul>
               </ul>
             </ul>
           </div>
+        </div>
+
+
+      <!-- Mobilka version -->
+      <div class="d-flex justify-content-center">
+        <div class="d-block d-lg-none">
+          <img src="images/album.jpg" alt=" " class="img-fluid rounded-top">
+          <div class="border border-dark rounded-bottom px-5 py-3 text-nowrap" style="max-width: 640px;">
+            <ul>
+              <li><h2>Ještě Chvílí...</h2></li>
+              <ul>
+                <li><h3>Obsah:</h3></li>
+                <ul>
+                  <li>Červoná Ruta</li>
+                  <li>Ej, plyne kača</li>
+                  <li>Mezí horami</li>
+                  <li>Ticho</li>
+                  <li>Obijmi</li>
+                  <li>Odna Kalina</li>
+                  <li>Chcí být tvůj</li>
+                  <li>Modré nebe</li>
+                  <li>Dios es amor</li>
+                  <li>Spasená Ukrajina</li>
+                  <li>Dubky</li>
+                  <li>U tvych nohou</li>
+                  <li>Ukrajina tse ty</li>
+                  <li>Kvitka Duša</li>
+                  <li>Marusja</li>
+                  <li>Bude vesna</li>
+                  <li>Oj u luzi...</li>
+                  <li>...</li>
+                </ul>
+                <a class="btn btn-outline-primary px-2" href="#" role="button">Poslechnout</a>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+        </div>
         
+          
+          
       </div>
       
     </div>
