@@ -1,0 +1,40 @@
+// Import all of Bootstrap's CSS
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1500px
+);
+
+$primary: #009999;
+$headings-font-family: "Impact", sasn-serif;
+$card-title-color: #000000;
+
+$grid-gutter-width: 5rem;
+
+@import "bootstrap";
+
+
+.spacing {
+    padding: 2rem 0;
+
+    @include media-breakpoint-up(md) {
+        padding: 4rem 0;
+    }
+    @include media-breakpoint-up(lg) {
+        padding: 6rem 0;
+    }
+    @include media-breakpoint-up(xl) {
+        padding: 8rem 0;
+    }
+}
