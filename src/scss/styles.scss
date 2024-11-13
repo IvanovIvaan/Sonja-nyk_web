@@ -18,6 +18,7 @@ $container-max-widths: (
 
 $success: #5e943f;
 $primary: #134178;
+$drak: #171f06;
 $yellow: #e0bf00;
 $white: #e4e4e4;
 $headings-font-family: "Impact", sasn-serif;
@@ -44,4 +45,31 @@ $grid-gutter-width: 5rem;
 
 .btn:hover {
   color: $white
+}
+
+// .background-image{
+
+//   background-image: url("images/4_sonjasnyk.jpg");
+
+//   background-size: no-repeat;
+
+//   background-position: center;
+
+//   background-size: cover;
+
+//   width: 100%;
+//   height: 400px;
+//   opacity: 0.9;
+//   // filter: brightness(80%);
+// }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.Carusel {
+  margin-top: 100px;
 }
