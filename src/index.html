@@ -1,10 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" data-bs-theme="auto">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap w/ Vite</title>
-    <script type="module" src="./js/main.js"></script> 
+    <title>Sonjašnyk</title>
+    <script type="module" src="./js/main.js"></script>
+    <link rel="import" href="/concerts.html">
 </head>
 <body>
 
@@ -19,12 +20,12 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Domů</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">kontakty</a>
+                    <a class="nav-link" href="concerts.html">koncerty</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -79,18 +80,19 @@
     <!-- CONTENT -->
 
       
-        <div class="my-5 py-2 d-flex justify-content-center bg-success">
+        <div class="my-5 py-2 d-flex justify-content-center bg-success text-white">
           <h1>Sonjašnyk</h1>
         </div>
 
-        <div class="container-fluid container-lg container-xl">
+
+        <div class="container-fluid container-xl">
         <div class="row">
         <div class="col col-12 col-lg-6">
         <div class="d-flex justify-content-center">
             <div class="m-5">
               <h3>- V překladu to znamená slunečnice. Jedná se o soubor českých a ukrajinských žen, který vznikl v Litomyšli.</h3>
               
-        <div class="container-fluid bg-success py-3">
+        <div class="container-fluid py-3">
             <p>„V září 2022 jsme s kolegyní Evičkou Beňovou sbor založily. Snažily jsme se jim dát nějakou sociální aktivitu. Chtěly
                 jsme je naučit lépe česky. Říkaly jsme si, že s hudbou a zpěvem to půjde do hlavy určitě lépe,“ vzpomíná Martina
                 Sirová.
@@ -108,8 +110,8 @@
         </div>
 
         <div class="col col-12 col-lg-6">
-          <div class="d-flex justify-content-center">
-            <div class="card border-light"  style="width: 500px;">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="card border-white">
               <iframe height="315" src="https://www.youtube.com/embed/yI5_F614Nic?si=sffqIKfjjg8pO2ay" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               <div class="card-body">
                 <h5 class="card-title">6.11.2024 - Pavel Helan & Sonjašnyk</h5>
@@ -122,8 +124,39 @@
 
     </div>
     </div>
+  </div>
     
-    <div class="container-fluid bg-success my-5" style="height: 400px; width: 100%;"></div>
+  <!-- Diskografie -->
+
+    <div class="container-fluid bg-success mt-5 text-white py-3" style="width: 100%;">
+        <h2>Náš první album</h2>
+    </div>
+
+    <div class="container-fluid container-lg my-3">
+      <div class="row">
+        <div class="col col-12 col-lg-6">
+          <img src="images/album.jpg" alt=" " class="img-fluid rounded float-start">
+        </div>
+        <div class="col col-12 col-lg-6 border border-dark">
+          <ul>
+            <li><h2>Ještě Chvílí...</h2></li>
+            <ul>
+              <li><h3>Obsah:</h3></li>
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li>...</li>
+              </ul>
+            </ul>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
 
 </body>
 </html>
