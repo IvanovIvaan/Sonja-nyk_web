@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Markazi+Text:wght@400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 // Import all of Bootstrap's CSS
 $grid-breakpoints: (
   xs: 0,
@@ -21,14 +23,21 @@ $primary: #134178;
 $drak: #171f06;
 $yellow: #e0bf00;
 $white: #e4e4e4;
-$headings-font-family: "Impact", sasn-serif;
+$headings-font-family: "Impact", sans-serif;
 $card-title-color: #000000;
 
 $grid-gutter-width: 5rem;
 
+// $font-family-base: "Markazi Text", sans-serif;
+
+$nav-link-font-size: 2rem;
+$nav-link-font-weight:  500;
+
 @import "bootstrap";
 
-
+.navbar-brand {
+  font-size: 40px;
+}
 .spacing {
     padding: 2rem 0;
 
@@ -73,3 +82,5 @@ $grid-gutter-width: 5rem;
 .Carusel {
   margin-top: 100px;
 }
+
+$box-shadow-lg: 0 1rem 3rem rgba($black, .175);
