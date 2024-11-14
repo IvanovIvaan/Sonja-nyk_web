@@ -20,7 +20,7 @@ $container-max-widths: (
 
 $success: #5e943f;
 $primary: #134178;
-$drak: #171f06;
+$dark: #171f06;
 $warning: #233b08;
 $yellow: #e0bf00;
 $white: #e4e4e4;
@@ -89,4 +89,21 @@ $box-shadow-lg: 0 1rem 3rem rgba($black, .175);
 .navber {
   font-size: 2rem;
   font-weight: 500;
+}
+
+.nav-link:hover {
+  color: $success;
+}
+
+.navbar-toggler {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.otstup-150 {
+  margin-top: 150px;
+}
+
+.taxt h1 {
+  font-size: 100px;
 }
