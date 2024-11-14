@@ -21,6 +21,7 @@ $container-max-widths: (
 $success: #5e943f;
 $primary: #134178;
 $drak: #171f06;
+$warning: #233b08;
 $yellow: #e0bf00;
 $white: #e4e4e4;
 $headings-font-family: "Impact", sans-serif;
@@ -80,7 +81,12 @@ $nav-link-font-weight:  500;
 }
 
 .Carusel {
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 $box-shadow-lg: 0 1rem 3rem rgba($black, .175);
+
+.navber {
+  font-size: 2rem;
+  font-weight: 500;
+}
